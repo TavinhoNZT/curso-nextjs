@@ -7,6 +7,10 @@ export default function usandoTitulo() {
                 principal="Página de Cadastro"
                 secundario="Incluir, alterar e excluir coisas!"
             />
+            <Titulo
+                principal="Página de Login"
+                secundario="Informe seu email e senha"
+            />
         </div>
     )
 }
