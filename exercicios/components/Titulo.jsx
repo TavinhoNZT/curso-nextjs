@@ -1,10 +1,15 @@
-export default function Titulo(info) {
-    console.log(info)
-    return (
+export default function Titulo(props) {
+    return props.pequeno ? (
         <>
-        <h1>{info.principal} </h1>
-        <h2>{info.secundario} </h2>
+            <p>{props.principal} </p>
+            <p>{props.secundario} </p>
         </>
-
+    ) : (
+        <>
+            <h1>{props.principal} </h1>
+            <h2>{props.secundario} </h2>
+        </>
     )
+
+
 }
