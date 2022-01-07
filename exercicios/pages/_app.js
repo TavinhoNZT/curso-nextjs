@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import './css/integracao1.css'
+import './css/integracao2.module.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
