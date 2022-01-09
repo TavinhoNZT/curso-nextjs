@@ -1,4 +1,4 @@
-export default function jsx3 () {
+export default function jsx3() {
     return (
         <div>
             <h1>
