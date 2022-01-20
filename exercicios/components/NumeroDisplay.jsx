@@ -1,4 +1,4 @@
-export default function ContadorDisplay(props) {
+export default function NumeroDisplay(props) {
   return (
     <div
       style={{
@@ -6,10 +6,10 @@ export default function ContadorDisplay(props) {
         justifyContent: "center",
         alignItems: "center",
         height: "50px",
-        weight: "50px",
-        borderRadius: "25px",
-        backgroundColor: "#222",
-        color: "#fff",
+        weight: "100px",
+        borderRadius: "50px",
+        
+        color: "#1FE20C",
         fontSize: "2rem",
         margin: "20px",
       }}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ContadorDisplay from "../../components/ContadorDisplay";
+import NumeroDisplay from "../../components/NumeroDisplay";
 
 export default function contador() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -23,7 +23,7 @@ export default function contador() {
       }}
     >
       <h1>Contador</h1>
-      <ContadorDisplay numero={numero} />
+      <NumeroDisplay numero={numero} />
       <div>
         <button onClick={dec}> - </button>
         <button onClick={inc}> + </button>
